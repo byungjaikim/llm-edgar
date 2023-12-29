@@ -23,14 +23,14 @@ The LLM-based EDGAR Project is designed as a multi-faceted endeavor, each facet 
 - **Implementation**: The entire pipeline for data processing and Tasks with LLMs are implemented in Python. User interface is implemented in React/Javascript
 - **Database Storage**: We utilize CSV/TXT files for simiplicity (without DB manage system)
 
-1. Three environment variables are required
+#### Three environment variables are required
 ```bash
 OPENAI_API_KEY="your_openai_api_key"
 MY_CHROMEDRIVER_PATH="/webdriver/path"
 SEC_USER_AGENT="company_name your_email@company.com"
 ```
 
-2. Run python code
+#### Run python code
 ```bash
 # Collect SEC data published at current date and Perform LLM tasks with updated SEC data 
 python run.py --do_data_collection --daysago 0 --do_llm_tasks
