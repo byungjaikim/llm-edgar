@@ -42,9 +42,9 @@ python run.py --do_data_collection --daysago 0 --do_llm_tasks
 
 - **Key Objectives**: Create a REAL-TIME SEC filing monitoring dashboard with automated data retrieval, LLM-based simplification of financial reports, and multilingual support.
 - **Features**:
-    Automated data fetching, data visualizations, simplification, multilingual interface
-    [LLM Tasks for Form 8-K] - summarize, write a new article and translate 
-    [LLM Tasks for Form 10-Q] - extract financials, question and answer, convert conversation to data 
+    - Automated data fetching, data visualizations, simplification, multilingual interface
+    - [LLM Tasks for Form 8-K] - summarize, write a new article and translate 
+    - [LLM Tasks for Form 10-Q] - extract financials, question and answer, convert conversation to data 
 
 - **Comply with Regulations**: Adheres strictly to the SEC's EDGAR file accessing policies (**Maximum 10 requests per sec**), ensuring responsible and legal data usage. [https://www.sec.gov/os/accessing-edgar-data]
 
