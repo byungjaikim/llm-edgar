@@ -3,7 +3,7 @@ import requests
 import bs4
 from bs4 import BeautifulSoup
 import os
-from .table_reformatter import Table_HTML_to_MD
+from. table_reformatter import Table_HTML_to_MD
 import json
 
 class SEC_HTML_Parser:
@@ -12,6 +12,7 @@ class SEC_HTML_Parser:
 
         self.base_url = 'https://www.sec.gov'
         self.db_folder = db_folder
+        # self.max_cnt_parsedFile = {'4': 0, '10-Q': 1, '8-K': 10}
         self.marker_endpage = marker_endpage
         self.table_reformatter = Table_HTML_to_MD(html_format=True)
         
@@ -104,7 +105,7 @@ class SEC_HTML_Parser:
         file_info['accepted_time']    = info[1].text # not used
         file_info['document_number']  = info[2].text # not used
         file_info['period_of_report'] = info[3].text # not used
-        if len(info) < 5: file_info['items'] = ['No items']
+        if len(info) < 5: file_info['items'] = None
         else:             file_info['items'] = info[4].text.split('Item ')[1:]
         file_info['htm_urls'] = htm_urls
         file_info['txt_url']  = txt_url
@@ -126,7 +127,6 @@ class SEC_HTML_Parser:
             
             # add items
             sec_files.loc[i, "items"] = ','.join(file_info['items'])
-            sec_files.loc[i, "accepted_time"] = file_info['accepted_time']
 
             # parsed file
             document_all = {}

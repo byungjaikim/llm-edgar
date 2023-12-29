@@ -1,34 +1,3 @@
 Ticker,English_Name,CIK_Number
-U,Unity Software,1810806
-AAPL,Apple,320193
-MSFT,Microsoft,789019
 GOOG,Alphabet (Google),1652044
-AMZN,Amazon,1018724
-NVDA,NVIDIA,1045810
-META,Meta Platforms,1326801
-BRK-B,Berkshire Hathaway,1067983
-TSLA,Tesla,1318605
-WMT,Walmart,104169
-XOM,Exxon Mobil,34088
-AVGO,Broadcom,1730168
-MA,Mastercard,1141391
-ORCL,Oracle,1341439
-HD,Home Depot,354950
-ADBE,Adobe,796343
-CVX,Chevron,93410
-MRK,Merck,310158
-COST,Costco,909832
-KO,Coca-Cola,21344
-ABBV,AbbVie,1551152
-PEP,Pepsico,77476
-CSCO,Cisco,858877
-CRM,Salesforce,1108524
-NFLX,Netflix,1065280
-MCD,McDonald,63908
-AMD,AMD,2488
-TMO,Thermo Fisher Scientific,97745
-INTC,Intel,50863
-NKE,Nike,320187
-DIS,Walt Disney,1744489
-QCOM,QUALCOMM,804328
-IBM,IBM,51143
+U,Unity Software,1810806

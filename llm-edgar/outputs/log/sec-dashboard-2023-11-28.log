@@ -1,12 +1,12 @@
-2023-12-19 11:22:15 INFO: ******** Exploring files for U ********
-2023-12-19 11:22:15 INFO: 	Scrap file information in SEC archive
-2023-12-19 11:22:32 INFO: ******** Exploring files for U ********
-2023-12-19 11:22:32 INFO: 	Scrap file information in SEC archive
-2023-12-19 11:22:36 INFO: 	Parse the scrapped html files
-2023-12-19 11:23:45 INFO: ******** Exploring files for U ********
-2023-12-19 11:23:45 INFO: 	Scrap file information in SEC archive
-2023-12-19 11:24:18 INFO: ******** Exploring files for U ********
-2023-12-19 11:24:18 INFO: 	Scrap file information in SEC archive
-2023-12-19 11:27:13 INFO: ******** Exploring files for U ********
-2023-12-19 11:27:13 INFO: 	Scrap file information in SEC archive
-2023-12-19 11:27:17 INFO: 	Parse the scrapped html files
+2023-12-26 12:54:30 INFO: ******** Exploring files of MSFT ********
+2023-12-26 12:54:30 INFO: 	Scrap file information in SEC archive
+2023-12-26 12:54:35 INFO: 	There is no valid files
+2023-12-26 12:54:35 INFO: ******** Exploring files of GOOG ********
+2023-12-26 12:54:35 INFO: 	Scrap file information in SEC archive
+2023-12-26 12:54:40 INFO: 	Parse the scrapped html files
+2023-12-26 12:54:41 INFO: 	Update SEC files
+2023-12-29 03:11:57 INFO: Collect SEC data -- U 2023-11-28
+2023-12-29 03:11:57 INFO: 	******** Exploring files of U ********
+2023-12-29 03:11:57 INFO: 		Scrap file information in SEC archive
+2023-12-29 03:12:01 INFO: 		Parse the scrapped html files
+2023-12-29 03:12:02 INFO: 		Update SEC files

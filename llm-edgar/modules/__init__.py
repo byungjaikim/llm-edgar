@@ -1,3 +1,4 @@
 
 from .module_archive_scraping import SEC_Archive_Scraper
 from .module_html_parser import SEC_HTML_Parser
+from .module_app_secdashboard import App_SEC_Dashboard

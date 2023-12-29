@@ -1,17 +1,12 @@
 # Welcome to the LLM-based EDGAR Project
 
-The code for this project is currently being organized
-
-**2023-12-18 Update** - Data processing Part is updated
-
 ## Introduction
 
 Welcome to the LLM-based EDGAR Project, an initiative inspired by the advancements in Large Language Models. 
 
 Our project blends the excellent, globally-released Language Models with the extensive database of SEC EDGAR (Electronic Data Gathering, Analysis, and Retrieval). This endeavor is not about creating new LLMs, but rather, it's about applying the power of these models to revolutionize how financial data is accessed, analyzed, and understood. 
 
-Think of this project as a hobbyist's playground - a relaxed, fun space!!
-**This content should not be regarded as financial advice, nor is it a suggestion to engage in real-money trading.**
+Think of this project as a hobbyist's playground. **This content should not be regarded as financial advice, nor is it a suggestion to engage in real-money trading.**
 
 ## Project Overview
 
@@ -28,10 +23,25 @@ The LLM-based EDGAR Project is designed as a multi-faceted endeavor, each facet 
 - **Implementation**: The entire pipeline for data processing and Tasks with LLMs are implemented in Python. User interface is implemented in React/Javascript
 - **Database Storage**: We utilize CSV/TXT files for simiplicity (without DB manage system)
 
+1. Three environment variables are required
+```bash
+OPENAI_API_KEY="your_openai_api_key"
+MY_CHROMEDRIVER_PATH="/webdriver/path"
+SEC_USER_AGENT="company_name your_email@company.com"
+```
+
+2. Run python code
+```bash
+# Collect SEC data published at current date and 2. Perform LLM tasks with updated SEC data 
+python run.py --do_data_collection --daysago 0 --do_llm_tasks
+```
+
 ## Application 1: SEC Dashboard
 
-- **Key Objectives**: Create a real-time SEC filing monitoring dashboard with automated data retrieval, LLM-based simplification of financial reports, and multilingual support.
-- **Features**: Automated data fetching, LLM-driven data simplification, multilingual interface, interactive data visualizations, customizable alerts, and LLM insight and forecasting .
+[View the SEC Dashboard](http://34.125.19.231/)
+
+- **Key Objectives**: Create a REAL-TIME SEC filing monitoring dashboard with automated data retrieval, LLM-based simplification of financial reports, and multilingual support.
+- **Features**: Automated data fetching, LLM-driven data simplification, multilingual interface, interactive data visualizations, customizable alerts.
 - **Comply with Regulations**: Adheres strictly to the SEC's EDGAR file accessing policies (**Maximum 10 requests per sec**), ensuring responsible and legal data usage. [https://www.sec.gov/os/accessing-edgar-data]
 
 ## Application 2: What's Next?
