@@ -35,11 +35,12 @@ SEC_USER_AGENT="company_name your_email@company.com"
 # Collect SEC data published at current date and Perform LLM tasks with updated SEC data 
 python run.py --do_data_collection --daysago 0 --do_llm_tasks
 ```
-img src="https://cloud.githubusercontent.com/assets/yourgif.gif" width="400" height="790"
+
 ## Application 1: SEC Dashboard
 
 [View the SEC Dashboard](http://34.125.19.231/) (Currently not available)
-<img src="https://github.com/byungjaikim/llm-edgar/assets/42429553/1626c392-de47-4526-8db8-5212a1c48500" width="100">
+
+<img src="https://github.com/byungjaikim/llm-edgar/assets/42429553/1626c392-de47-4526-8db8-5212a1c48500" width="600">
 
 - **Key Objectives**: Create a REAL-TIME SEC filing monitoring dashboard with automated data retrieval, LLM-based simplification of financial reports, and multilingual support.
 - **Features**:
