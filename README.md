@@ -38,8 +38,8 @@ python run.py --do_data_collection --daysago 0 --do_llm_tasks
 
 ## Application 1: SEC Dashboard
 
-[View the SEC Dashboard](http://34.125.19.231/) (Currently Not available)
-![image](https://github.com/byungjaikim/llm-edgar/assets/42429553/1626c392-de47-4526-8db8-5212a1c48500)
+[View the SEC Dashboard](http://34.125.19.231/) (Currently not available)
+![image](https://github.com/byungjaikim/llm-edgar/assets/42429553/1626c392-de47-4526-8db8-5212a1c48500 | width=50)
 
 - **Key Objectives**: Create a REAL-TIME SEC filing monitoring dashboard with automated data retrieval, LLM-based simplification of financial reports, and multilingual support.
 - **Features**:
